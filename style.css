@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    width: 100vw;
+    background: #00008B;
+    height: 100vh;
+}
+header{
+    
+    background: #008B8B;
+    padding: 1.25rem;
+}
+
+
+nav h1{
+    color: whitesmoke;
+    font-size: 2.15rem;
+    
+}
+main{
+    padding: 1.25rem;
+    max-width: 50rem;
+    margin: 0 auto;
+    /* height: 100vh; */
+}
+main form{
+    display: flex;
+    justify-content: center;
+}
+main form input{
+    border: none;
+    flex-grow: 1;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: .3rem;
+
+}
+main form button{
+    background: #00a886;
+    color: whitesmoke;
+    border: none;
+    border-radius: .3rem;
+    padding: .6rem;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: .6rem;
+    cursor: pointer;
+}
+.result{
+    padding: 1.2rem; 
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    margin-top: 1.25rem;
+    border-radius: .3rem;
+    margin-bottom: 1.25rem;
+}
+
+.result  p{
+    margin-top: 1rem;
+}
+.result p.part{
+    font-style: italic;
+    color: #808080;
+}
+.result li{
+    padding: .19rem;
+    margin-left: 1.25rem;
+}
+.result  h2{
+    margin-top: 0rem;
+}
+.result div{
+    background: #00a886;
+    border: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    width: fit-content;
+    text-align: center;
+    padding: .3rem;
+}
+.result div a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer{
+    background: #008B8B;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    
+}
+footer p{
+    color: whitesmoke;
+    font-size: .7rem;
+    text-align: center;
+    padding: .6rem;
+
+}
+@media screen and (max-width:320px){
+    main form{
+        flex-direction: column;
+    }
+    main form button{
+        margin-left: 0rem;
+        margin-top: .6rem;
+    }
+    footer p{
+        font-size: .4rem;
+        padding: .3rem;
+    
+    }
+}
+
+
+
